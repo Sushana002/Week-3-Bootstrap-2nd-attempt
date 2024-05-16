@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        div {
+            border-style: solid;
+            border-color: black; 
+            padding: 5px; 
+            margin: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <script src="node_modules.jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <!--Bootstrap Project-->
+    
+    <h1>Bootstrap Project 1</h1><br>
+
+    <!--Creating a navbar-->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Bootstrap Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Hidden brand</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+        </button>
+    </nav><br>
+
+    <!--Creating contianers-->
+
+     <div class="container">
+        <div class="row">
+          <div class="col-sm-4">Red</div>
+          <div class="col-sm-4">Blue</div>
+          <div class="col-sm-4">Purple</div>
+        </div>
+    </div><br>
+    <div class="container-fluid"> 
+        <div class="row">
+            <div class="col-lg-6">Pink</div>
+            <div class="col-sm-3">Yellow</div>
+            <div class="col-sm-3">White</div>
+        </div>
+    </div>
+      
+    <!--Creating a table-->
+
+<table class="table table-dark table-hover">
+    <tr>
+        <th>Name</th>
+        <th>ID#</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>Brain</td>
+        <td>#56</td>
+        <td>Brian@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Bran</td>
+        <td>#57</td>
+        <td>Bran@gmail.com</td>
+        <tr>
+            <td>Brady</td>
+            <td>#58</td>
+            <td>Brady@gmail.com</td>
+        </tr>
+    </tr>
+</table><br>
+
+    <!--Adding a form-->
+
+    <form>
+        <input type="text" name="firstname" placeholder="First Name">
+        <input type="text" name="lastname" placeholder="Last Name">
+        <input type="text" name="email" placeholder="Email">
+         <input type="submit" value="Submit">
+    </form>
+    <footer>
+        Hope you enjoy my page!
+    </footer>
+</body>

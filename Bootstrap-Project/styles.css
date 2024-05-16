@@ -1,0 +1,36 @@
+
+#bali {
+    text-align: center;  
+    border-bottom: solid black; 
+}
+
+.bali-pics {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 35%; 
+    border: 2px solid black; 
+}
+
+.bali2 {
+    text-align: center; 
+    color: blue; 
+}
+
+p {
+   display: block;  
+   text-align: left;
+   margin: auto; 
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+.class {
+    text-align: center;
+    margin:auto;
+    display: block; 
+    font-style: italic; 
+}
